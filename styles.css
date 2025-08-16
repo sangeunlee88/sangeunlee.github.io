@@ -1,0 +1,52 @@
+.publication-entry {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.publication-entry img {
+  width: 400px; /* ✅ Fixed width */
+  height: auto; /* ✅ Maintain aspect ratio */
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 4px;
+  object-fit: contain; /* Optional: keeps the image inside the box nicely */
+}
+
+.publication-info {
+  flex: 1;
+  font-family: sans-serif;
+}
+
+.publication-info a {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #3333aa;
+}
+
+.publication-info a:hover {
+  text-decoration: underline;
+}
+
+.publication-authors {
+  margin-top: 5px;
+  font-style: italic;
+  color: #444;
+}
+
+.publication-venue {
+  margin-top: 2px;
+  color: #666;
+  font-style: italic;
+}
+.experience-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #222;
+}
+.experience-entry {
+  font-size: 1.1em;
+}
